@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Node
+node_modules/
+dist/
+build/
+.vite/
+
+# Secrets
+.env
+.env.local
+
+# Large files (NOT committed)
+backend/models/
+backend/data/*.csv
+backend/data/synthetic_ats/
+backend/data/*.db
+backend/catboost_info/
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
