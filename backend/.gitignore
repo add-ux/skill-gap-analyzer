@@ -1,5 +1,31 @@
+# Python
 __pycache__/
 *.py[cod]
+*.pyo
+*.pyd
 .venv/
 venv/
+env/
+
+# Environment / Secrets
 .env
+.env.local
+.env.*.local
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+logs/
+
+# Test / Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS / Editor
+.DS_Store
+Thumbs.db

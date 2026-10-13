@@ -15,11 +15,18 @@ build/
 .env
 .env.local
 
-# Large files (NOT committed)
-backend/models/
-backend/data/*.csv
+# Large embedding model (friend auto-downloads on first run)
+backend/models/all-MiniLM-L6-v2/
+
+# Old/stale model checkpoints (not used by app)
+backend/models/resume_score_model.joblib
+backend/models/resume_score_model_real.joblib
+backend/models/resume_score_model_synthetic.joblib
+
+# Synthetic data (not used by current training script)
 backend/data/synthetic_ats/
-backend/data/*.db
+
+# CatBoost training logs
 backend/catboost_info/
 
 # OS / Editor
